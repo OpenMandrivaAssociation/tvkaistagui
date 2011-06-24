@@ -1,5 +1,5 @@
 Name:		tvkaistagui
-Version:	1.2.1
+Version:	1.3.0
 Release:	%mkrel 1
 License:	GPLv3
 Group:		Video
@@ -8,7 +8,7 @@ URL:		http://helineva.net/%{name}
 Source0:        http://helineva.net/%{name}/%{name}-%{version}-src.tar.gz
 BuildRequires: 	libpng-devel
 BuildRequires:	libqt4-devel >= 4.6.0
-Suggests:	vlc
+Requires:	vlc
 
 %description
 Download and play TV programs from Finnish TVkaista service.

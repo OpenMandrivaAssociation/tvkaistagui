@@ -34,3 +34,15 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %{_datadir}/pixmaps/%{name}.png
 %{_datadir}/applications/%{name}.desktop
+
+
+%changelog
+* Fri Jun 24 2011 Jani Välimaa <wally@mandriva.org> 1.3.0-1mdv2011.0
++ Revision: 686928
+- new version 1.3.0
+- require vlc
+
+* Wed Apr 20 2011 Jani Välimaa <wally@mandriva.org> 1.2.1-1
++ Revision: 656294
+- import tvkaistagui
+

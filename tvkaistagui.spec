@@ -2,7 +2,7 @@
 
 Name:		tvkaistagui
 Version:	1.3.0
-Release:	2
+Release:	3
 License:	GPLv3
 Group:		Video
 Summary:	Fast and easy GUI for Finnish TVkaista service

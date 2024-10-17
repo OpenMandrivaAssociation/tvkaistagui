@@ -6,7 +6,7 @@ Release:	3
 License:	GPLv3
 Group:		Video
 Summary:	Fast and easy GUI for Finnish TVkaista service
-URL:		http://helineva.net/%{name}
+URL:		https://helineva.net/%{name}
 Source0:        http://helineva.net/%{name}/%{name}-%{version}-src.tar.gz
 BuildRequires: 	pkgconfig(libpng)
 BuildRequires:	pkgconfig(Qt3Support) >= 4.6.0

@@ -8,6 +8,7 @@ Group:		Video
 Summary:	Fast and easy GUI for Finnish TVkaista service
 URL:		https://helineva.net/%{name}
 Source0:        http://helineva.net/%{name}/%{name}-%{version}-src.tar.gz
+BuildRequires:	make
 BuildRequires: 	pkgconfig(libpng)
 BuildRequires:	pkgconfig(Qt3Support) >= 4.6.0
 Requires:	vlc
